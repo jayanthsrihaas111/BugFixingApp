@@ -1,0 +1,14 @@
+#left {
+    margin-left: 85px;
+    width: 80%;
+}
+
+.card {
+    margin: 3em;
+    margin-left: 100px;
+}
+
+#table {
+    border: separate;
+    border-color: saddlebrown;
+}

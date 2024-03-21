@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+	<servlet>
+		<servlet-name>LoginServlet</servlet-name>
+		<servlet-class>backend.LoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>LoginServlet</servlet-name>
+		<url-pattern>/login</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DashboardServlet</servlet-name>
+		<servlet-class>backend.DashboardServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DashboardServlet</servlet-name>
+		<url-pattern>/dashboard</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>registerServlet</servlet-name>
+		<servlet-class>backend.RegisterServlet</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+		<servlet-name>registerServlet</servlet-name>
+		<url-pattern>/register</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ViewAnswersServlet</servlet-name>
+		<servlet-class>backend.ViewAnswersServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ViewAnswersServlet</servlet-name>
+		<url-pattern>/viewAnswer</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>AskQuestionServlet</servlet-name>
+		<servlet-class>backend.AskQuestionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AskQuestionServlet</servlet-name>
+		<url-pattern>/askquestion</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>ProfileServlet</servlet-name>
+		<servlet-class>backend.ProfileServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ProfileServlet</servlet-name>
+		<url-pattern>/profile</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateLikesOnAnswerServlet</servlet-name>
+		<servlet-class>backend.UpdateLikesOnAnswerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateLikesOnAnswerServlet</servlet-name>
+		<url-pattern>/update_like</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>OpenPostAnswerServlet</servlet-name>
+		<servlet-class>backend.OpenPostAnswerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OpenPostAnswerServlet</servlet-name>
+		<url-pattern>/openpostanswer</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PostAnswerServlet</servlet-name>
+		<servlet-class>backend.PostAnswerServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PostAnswerServlet</servlet-name>
+		<url-pattern>/postanswer</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>updateAccp</servlet-name>
+		<servlet-class>backend.updateAccp</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>updateAccp</servlet-name>
+		<url-pattern>/update_accp</url-pattern>
+	</servlet-mapping>
+	
+	<filter>
+    <filter-name>CorsFilter</filter-name>
+    <filter-class>backend.CORSFilter</filter-class>
+	</filter>
+
+
+	<servlet>
+		<servlet-name>FeedbackServlet</servlet-name>
+		<servlet-class>backend.FeedbackServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FeedbackServlet</servlet-name>
+		<url-pattern>/submitfeedback</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>FeedbackOpenServlet</servlet-name>
+		<servlet-class>backend.FeedbackOpenServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>FeedbackOpenServlet</servlet-name>
+		<url-pattern>/feedback</url-pattern>
+	</servlet-mapping>
+
+
+
+ 
+<filter-mapping>
+    <filter-name>CorsFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+</filter-mapping>
+</web-app>

@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<database>
+	<questions>
+		<question>
+			<Ques_id>Q100000001</Ques_id>
+			<Question_Title>Why is processing a sorted array faster than processing an unsorted array?</Question_Title>
+			<Question_Desc> Why is processing a sorted array faster than processing an unsorted array? </Question_Desc>
+			<Creator_id>70204</Creator_id>
+			<Viewcount>64</Viewcount>
+			<Answer_count>64</Answer_count>
+			<Votes>10</Votes>
+			<Tags>Javascript,React</Tags>
+		</question>
+
+		<question>
+			<Ques_id>Q100000011</Ques_id>
+			<Question_Title>Give an example of styling being maintained !!</Question_Title>
+			<Question_Desc>
+				<p><br></br></p>
+					<h1>My Heading</h1>
+					<p><br></br>
+					This is The question <strong>with boldness blah blah blah</strong></p>
+					<ul>
+					  <li><br></br></li>
+					  <li><em>Here it is italic ul.</em></li>
+					</ul>
+					<ol>
+					  <li>But this is an <u>underlined ol</u>. <br></br>
+					</li>
+					</ol>
+					<p>Thank you for looking here.</p>
+			</Question_Desc>
+			<Creator_id>70204</Creator_id>
+			<Viewcount>64</Viewcount>
+			<Answer_count>64</Answer_count>
+			<Votes>10</Votes>
+			<Tags>html, css, react, styling , js </Tags>
+		</question>
+
+		<question>
+			<Ques_id>Q100000002</Ques_id>
+			<Question_Title>How do I undo the most recent local commits in Git?</Question_Title>
+			<Question_Desc> Why is processing a sorted array faster than processing an unsorted array? </Question_Desc>
+			<Creator_id>C1W1M</Creator_id>
+			<Viewcount>7</Viewcount>
+			<Answer_count>98</Answer_count>
+			<Votes>-5</Votes>
+			<Tags>Nodejs,React,webdev,frontend</Tags>
+		</question>
+		<question>
+			<Ques_id>Q100000003</Ques_id>
+			<Question_Title>How do I delete a Git branch locally and remotely?</Question_Title>
+			<Question_Desc> Why is processing a sorted array faster than processing an unsorted array? </Question_Desc>
+			<Creator_id>70204</Creator_id>
+			<Viewcount>84</Viewcount>
+			<Answer_count>84</Answer_count>
+			<Votes>0</Votes>
+			<Tags>Github,webdev,frontend</Tags>
+		</question>
+		<question>
+			<Ques_id>Q100000004</Ques_id>
+			<Question_Title>What is the difference between git pull and git fetch?</Question_Title>
+			<Question_Desc> Why is processing a sorted array faster than processing an unsorted array? </Question_Desc>
+			<Creator_id>5MXRG</Creator_id>
+			<Viewcount>4</Viewcount>
+			<Answer_count>88</Answer_count>
+			<Votes>0</Votes>
+			<Tags>Javascript,React,Github</Tags>
+		</question>
+		<question>
+			<Ques_id>Q100000005</Ques_id>
+			<Question_Title>What does the yield keyword do?</Question_Title>
+			<Question_Desc> Why is processing a sorted array faster than processing an unsorted array? </Question_Desc>
+			<Creator_id>WBSNK</Creator_id>
+			<Viewcount>16</Viewcount>
+			<Answer_count>47</Answer_count>
+			<Votes>0</Votes>
+			<Tags>Javascript,React,webdev,frontend</Tags>
+		</question>
+		<question>
+			<Ques_id>Q100000006</Ques_id>
+			<Question_Title>What is the correct JSON content type?</Question_Title>
+			<Question_Desc> Why is processing a sorted array faster than processing an unsorted array? </Question_Desc>
+			<Creator_id>WBSNK</Creator_id>
+			<Viewcount>16</Viewcount>
+			<Answer_count>63</Answer_count>
+			<Votes>0</Votes>
+			<Tags>Javascript,React,webdev,frontend</Tags>
+		</question>
+		<question>
+			<Ques_id>Q100000007</Ques_id>
+			<Question_Title>How do I undo git add before commit?</Question_Title>
+			<Question_Desc> Why is processing a sorted array faster than processing an unsorted array? </Question_Desc>
+			<Creator_id>RI0GP</Creator_id>
+			<Viewcount>76</Viewcount>
+			<Answer_count>54</Answer_count>
+			<Votes>0</Votes>
+			<Tags>Javascript,React,webdev,frontend</Tags>
+		</question>
+		<question>
+			<Ques_id>Q100000008</Ques_id>
+			<Question_Title>What is the --> operator in C++?</Question_Title>
+			<Question_Desc> Why is processing a sorted array faster than processing an unsorted array? </Question_Desc>
+			<Creator_id>RI0GP</Creator_id>
+			<Viewcount>61</Viewcount>
+			<Answer_count>68</Answer_count>
+			<Votes>0</Votes>
+			<Tags>Javascript,React,webdev,frontend</Tags>
+		</question>
+		<question>
+			<Ques_id>Q100000009</Ques_id>
+			<Question_Title>How do I rename a local Git branch?</Question_Title>
+			<Question_Desc> Why is processing a sorted array faster than processing an unsorted array? </Question_Desc>
+			<Creator_id>IRT3I</Creator_id>
+			<Viewcount>38</Viewcount>
+			<Answer_count>65</Answer_count>
+			<Votes>0</Votes>
+			<Tags>Javascript,React,webdev,frontend</Tags>
+		</question>
+		<question>
+			<Ques_id>Q100000010</Ques_id>
+			<Question_Title>How can I remove a specific item from an array?</Question_Title>
+			<Question_Desc> Why is processing a sorted array faster than processing an unsorted array? </Question_Desc>
+			<Creator_id>RI0GP</Creator_id>
+			<Viewcount>47</Viewcount>
+			<Answer_count>46</Answer_count>
+			<Votes>0</Votes>
+			<Tags>Javascript,React,webdev,frontend</Tags>
+		</question>
+	</questions>
+	<answers>
+		<answer>
+			<answer_id>A100000001</answer_id>
+			<full_answer>In C++, it is faster to process a sorted array than an unsorted array because of branch
+                prediction. In computer architecture, a branch prediction determines whether a conditional branch (jump)
+                in the instruction flow of a program is likely to be taken or not. Branch prediction doesn't play a
+                significant role here.
+            </full_answer>
+			<ques_id>Q100000001</ques_id>
+			<answered_person_id>IRT3I</answered_person_id>
+			<acceptance_status>1.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000002</answer_id>
+			<full_answer>
+                $ git commit -m "Something terribly misguided" # (1)
+                $ git reset HEAD~ # (2)
+
+                edit files as necessary>> # (3)
+                $ git add ... # (4)
+                $ git commit -c ORIG_HEAD # (5)
+            </full_answer>
+			<ques_id>Q100000002</ques_id>
+			<answered_person_id>RI0GP</answered_person_id>
+			<acceptance_status>0.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000003</answer_id>
+			<full_answer>
+                $ git push -d
+                remote_name
+                branch_name
+                $ git branch -d
+                branch_name"
+
+            </full_answer>
+			<ques_id>Q100000003</ques_id>
+			<answered_person_id>91ZV7</answered_person_id>
+			<acceptance_status>0.5</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000004</answer_id>
+			<full_answer>
+                In the simplest terms, git pull does a git fetch followed by a git merge.
+
+                You can do a git fetch at any time to update your remote-tracking branches under refs/remotes/
+                remote/
+
+                This operation never changes any of your own local branches under refs/heads, and is safe to do without
+                changing your working copy. I have even heard of people running git fetch periodically in a cron job in
+                the background (although I wouldn't recommend doing this).
+
+                A git pull is what you would do to bring a local branch up-to-date with its remote version, while also
+                updating your other remote-tracking branches.
+            </full_answer>
+			<ques_id>Q100000004</ques_id>
+			<answered_person_id>IRT3I</answered_person_id>
+			<acceptance_status>1.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000005</answer_id>
+			<full_answer>yield is a keyword that is used like return, except the function will return a generator.
+            </full_answer>
+			<ques_id>Q100000005</ques_id>
+			<answered_person_id>O1FSO</answered_person_id>
+			<acceptance_status>0.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000006</answer_id>
+			<full_answer>For JSON text:
+
+                application/json
+
+                For JSONP (runnable javascript) with callback:
+
+                application/javascript
+            </full_answer>
+			<ques_id>Q100000006</ques_id>
+			<answered_person_id>C1W1M</answered_person_id>
+			<acceptance_status>1.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000007</answer_id>
+			<full_answer>
+                You can undo git add before commit with:
+
+                git reset
+                file
+
+                You can use:
+
+                git reset
+            </full_answer>
+			<ques_id>Q100000007</ques_id>
+			<answered_person_id>5MXRG</answered_person_id>
+			<acceptance_status>1.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000008</answer_id>
+			<full_answer>"-->" is not an operator. It is in fact two separate operators, "--" and ">".
+
+                while( (x--) > 0 )
+
+                while( (x--) > 0 )
+            </full_answer>
+			<ques_id>Q100000008</ques_id>
+			<answered_person_id>GN2B2</answered_person_id>
+			<acceptance_status>1.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000009</answer_id>
+			<full_answer>
+                If you want to rename a branch while pointed to any branch, do:
+
+                git branch -m
+                oldname
+                newname
+                If you want to rename the current branch, you can do:
+
+                git branch -m
+                newname
+            </full_answer>
+			<ques_id>Q100000009</ques_id>
+			<answered_person_id>X9Z2K</answered_person_id>
+			<acceptance_status>0.5</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000011</answer_id>
+			<full_answer>array.remove(number);</full_answer>
+			<ques_id>Q100000002</ques_id>
+			<answered_person_id>WBSNK</answered_person_id>
+			<acceptance_status>1.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000012</answer_id>
+			<full_answer>array.remove(number);</full_answer>
+			<ques_id>Q100000003</ques_id>
+			<answered_person_id>WBSNK</answered_person_id>
+			<acceptance_status>1.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000013</answer_id>
+			<full_answer>array.remove(number);</full_answer>
+			<ques_id>Q100000004</ques_id>
+			<answered_person_id>WBSNK</answered_person_id>
+			<acceptance_status>1.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000014</answer_id>
+			<full_answer>array.remove(number);</full_answer>
+			<ques_id>Q100000005</ques_id>
+			<answered_person_id>WBSNK</answered_person_id>
+			<acceptance_status>1.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000015</answer_id>
+			<full_answer>array.remove(number);</full_answer>
+			<ques_id>Q100000006</ques_id>
+			<answered_person_id>WBSNK</answered_person_id>
+			<acceptance_status>1.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000016</answer_id>
+			<full_answer>array.remove(number);</full_answer>
+			<ques_id>Q100000007</ques_id>
+			<answered_person_id>WBSNK</answered_person_id>
+			<acceptance_status>1.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000017</answer_id>
+			<full_answer>array.remove(number);</full_answer>
+			<ques_id>Q100000008</ques_id>
+			<answered_person_id>WBSNK</answered_person_id>
+			<acceptance_status>1.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+		<answer>
+			<answer_id>A100000018</answer_id>
+			<full_answer>array.remove(number);</full_answer>
+			<ques_id>Q100000009</ques_id>
+			<answered_person_id>WBSNK</answered_person_id>
+			<acceptance_status>1.0</acceptance_status>
+			<like_count>500</like_count>
+		</answer>
+	</answers>
+	<users>
+		<user>
+			<Email>saiphani724@gmail.com</Email>
+			<Username>psp</Username>
+			<Password>1919</Password>
+			<Date_of_birth>2000-04-02 00:00:00</Date_of_birth>
+			<Mentor_Role>False</Mentor_Role>
+			<User_Id>70204</User_Id>
+		</user>
+		<user>
+			<Email>tsachmo99@gmail.com</Email>
+			<Username>sachmo</Username>
+			<Password>sachipo</Password>
+			<Date_of_birth>0000-00-00 00:00:00</Date_of_birth>
+			<Mentor_Role>True</Mentor_Role>
+			<User_Id>00000</User_Id>
+		</user>
+		<user>
+			<Email>sinkou@icloud.com</Email>
+			<Username>although_posset</Username>
+			<Password>Perseusproxy8554</Password>
+			<Date_of_birth>1976-04-08 00:00:00</Date_of_birth>
+			<Mentor_Role>True</Mentor_Role>
+			<User_Id>52U82</User_Id>
+		</user>
+		<user>
+			<Email>sagal@att.net</Email>
+			<Username>uranium_supplier</Username>
+			<Password>Sepiadownload8741</Password>
+			<Date_of_birth>1977-03-02 00:00:00</Date_of_birth>
+			<Mentor_Role>False</Mentor_Role>
+			<User_Id>RI0GP</User_Id>
+		</user>
+		<user>
+			<Email>msherr@optonline.net</Email>
+			<Username>dinginess_silent</Username>
+			<Password>Anguishedshown1111</Password>
+			<Date_of_birth>24/08/1977</Date_of_birth>
+			<Mentor_Role>False</Mentor_Role>
+			<User_Id>91ZV7</User_Id>
+		</user>
+		<user>
+			<Email>balchen@outlook.com</Email>
+			<Username>uncounted_bulldozer</Username>
+			<Password>Murmuringbuggy2225</Password>
+			<Date_of_birth>1979-09-08 00:00:00</Date_of_birth>
+			<Mentor_Role>True</Mentor_Role>
+			<User_Id>IRT3I</User_Id>
+		</user>
+		<user>
+			<Email>zavadsky@yahoo.ca</Email>
+			<Username>salonlinda</Username>
+			<Password>Abbystirgoa1234</Password>
+			<Date_of_birth>1981-12-08 00:00:00</Date_of_birth>
+			<Mentor_Role>False</Mentor_Role>
+			<User_Id>O1FSO</User_Id>
+		</user>
+		<user>
+			<Email>crowemojo@icloud.com</Email>
+			<Username>writerpacified</Username>
+			<Password>Bertharare0123</Password>
+			<Date_of_birth>20/10/1987</Date_of_birth>
+			<Mentor_Role>True</Mentor_Role>
+			<User_Id>C1W1M</User_Id>
+		</user>
+		<user>
+			<Email>janusfury@msn.com</Email>
+			<Username>stewarts_clubbing</Username>
+			<Password>Spellingbling1789</Password>
+			<Date_of_birth>18/10/1989</Date_of_birth>
+			<Mentor_Role>False</Mentor_Role>
+			<User_Id>5MXRG</User_Id>
+		</user>
+		<user>
+			<Email>nullchar@yahoo.com</Email>
+			<Username>manleyrolled_civilianbritish</Username>
+			<Password>Tapejukebox1148</Password>
+			<Date_of_birth>1993-03-05 00:00:00</Date_of_birth>
+			<Mentor_Role>True</Mentor_Role>
+			<User_Id>GN2B2</User_Id>
+		</user>
+		<user>
+			<Email>tsuruta@yahoo.com</Email>
+			<Username>peeved_mossy</Username>
+			<Password>Reliancearbitrary1147</Password>
+			<Date_of_birth>24/01/2008</Date_of_birth>
+			<Mentor_Role>True</Mentor_Role>
+			<User_Id>X9Z2K</User_Id>
+		</user>
+		<user>
+			<Email>cgarcia@live.com</Email>
+			<Username>troutmender</Username>
+			<Password>Upheldcrush420</Password>
+			<Date_of_birth>17/04/2008</Date_of_birth>
+			<Mentor_Role>True</Mentor_Role>
+			<User_Id>WBSNK</User_Id>
+		</user>
+	</users>
+</database>

@@ -1,0 +1,61 @@
+
+.xyz {
+  background: url('pic.jpg') no-repeat right;
+  background-size: 120%;
+  background-color: #fdfdfd;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.yyy {
+  width: 55%;
+  margin-left: 300px;
+  background-color: #B0E0E6;
+  padding: 150px;
+
+  h1 {
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+  }
+}
+
+.txt {
+  font-size: 13px;
+  color: #545454;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+.skl {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+@media screen and (max-width: 1200px) {
+  .yyy {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .xyz {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+  .yyy {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .xyz {
+    padding: 0;
+  }
+  .yyy {
+    padding: 60px;
+  }
+}

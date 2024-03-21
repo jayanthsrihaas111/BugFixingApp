@@ -1,0 +1,23 @@
+.postAns {
+	margin: 100px 600px 100px 100px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-weight: 800;
+  }
+  
+  .imgQues img {
+	float: right;
+	width: 500px;
+	height: 450px;
+	margin-right: 100px;
+	margin-top: 0px;
+  }
+  
+  .ck-editor__editable_inline {
+	min-height: 400px;
+  }
+  
+  .card {
+	margin: 2em;
+	margin-left: 1px;
+	text-align: center;
+  }

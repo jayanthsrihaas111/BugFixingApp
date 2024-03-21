@@ -1,0 +1,121 @@
+.dashboard {
+	h1 {
+	  margin: 10px;
+	  display: inline-block;
+	  font-family: Georgia, 'Times New Roman', Times, serif;
+	  position: relative;
+	  left: 30%;
+	}
+    
+	.headeritem {
+	  position: relative;
+	  top: -135px;
+	  left: 60%;
+	  display: inline-block;
+	  font-family: Georgia, 'Times New Roman', Times, serif;
+	  font-weight: bold;
+	  color: #000;
+	}
+    
+	.searchbutton {
+	  position: relative;
+	}
+    
+	.searchbar {
+	  position: relative;
+	  right: -40px;
+	}
+    }
+    
+    
+    .input-group.md-form.form-sm.form-1 input {
+	border: 1px solid #bdbdbd;
+	border-top-right-radius: 0.25rem;
+	border-bottom-right-radius: 0.25rem;
+    }
+    
+    .mycard {
+	height: 200px;
+	margin-top: -30px;
+	padding-top: 25px;
+	padding-left: 3%;
+	padding-right: 3%;
+    
+	.question {
+	width: 1200px;
+	
+	    position: relative;
+	  padding: 15px;
+	  font-weight: 500;
+	  font-family: 'Times New Roman', Times, serif;
+    
+	  &:hover {
+	    font-weight: bolder;
+	  }
+	}
+	a {
+	  color: #232323;
+    
+	  &:hover {
+	    color: #000;
+	    font-weight: bolder;
+	  }
+	}
+    
+	.details {
+	  display: inline-block;
+	  width: 27%;
+	  border-right: #454554 2px solid;
+	}
+    
+	.details_item {
+	  text-align: center;
+	  display: inline-block;
+    //     background-color: red;
+	  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	  margin: 0px 10px 0px 40px;
+	}
+    
+	.tags {
+	  margin-left: 30px;
+	  position: relative;
+	  top: -10px;
+    //     width: 65%;
+	}
+    
+	.body {
+	  padding: 10px;
+	}
+    
+	.tagtag {
+	  text-align: center;
+	  padding: .25em .5em;
+	  margin: 0px 25px 0px 0 !important;
+	  text-decoration: none;
+	  font-size: 15px;
+	  line-height: 1.4;
+	  white-space: nowrap;
+	  display: inline;
+	  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
+	}
+    
+	.tag {
+	  text-align: center;
+	  color: #39739d;
+	  background-color: #E1ECF4;
+	  padding: .25em .5em;
+	  margin: 0px 25px 0px 0 !important;
+	  text-decoration: none;
+	  font-size: 15px;
+	  line-height: 1.4;
+	  white-space: nowrap;
+	  display: inline-block;
+	  border-radius: 5px;
+	  border: 2px solid #E1ECF4;
+    
+	  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif
+	}
+    }
+    
+    
+    

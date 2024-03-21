@@ -1,0 +1,39 @@
+tab1 {
+    padding-left: 7px;
+}
+
+
+.nav-wrapper {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    text-transform: uppercase;
+    padding: 12px;
+    padding-bottom: 20px;
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.nav-link-wrapper {
+    height: 20px;
+    font-size: large;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+    display: block;
+}
+
+.nav-link-wrapper a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+    padding: 14px auto;
+}
+
+.nav-link-wrapper:hover {
+    border-bottom: 1px solid whitesmoke;
+}
+
+.nav-link-wrapper a:hover {
+    color: whitesmoke;
+}
